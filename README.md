@@ -6,9 +6,8 @@ ssh框架整合练习
 2018年6月
 
 `Spring` 整合 `Hibernate` 整合什么？  
->①由 `IOC `容器来管理` Hibernate `的 `SessionFatctory  `
+>①由 `IOC `容器来管理` Hibernate `的 `SessionFatctory  `  
 ②让 `Hibernate` 使用上 `Spring `的声明式事务  
-  
 >>`Hibernate`在和`Spring`整合时，大量的配置信息不会出现在自己`的hibernate.cfg.xml`配置文件中，而是会转移到`Spring`的`applicationContext.xml`配置文件，例如`连接数据库`的`基本信息`、`数据源`、`Hibernate`本身的`SessionFcatory`(通过 `Spring `提供的 `LocalSessionFactoryBean `进行配置，可以指定`Hibernate配置文件`的位置，以及`映射文件`的位置)等。`Hibernate`本身的`hibernate.cfg.xml`配置文件建议`保留`，并且在其中配置 `Hibernate` 的`基本属性`：`方言`，`SQL 显示及格式化`，`生成数据表的策略`以及`二级缓存`等。这样做修改的时候回更容易一些，就好像我们把`数据库连接的基本数据`单独放在`jdbc.properties`文件中一样。
 
 配置与` Spring `与 `SpringMVC `的时候需要注意什么？  
