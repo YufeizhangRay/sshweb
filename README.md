@@ -3,7 +3,6 @@ ssh框架整合练习
   
 `Spring`+`SpringMVC`+`Hibernate`(+`jQuery`)  
   
-2018年6月
 
 `Spring` 整合 `Hibernate` 整合什么？  
 >①由 `IOC `容器来管理` Hibernate `的 `SessionFatctory  `  
